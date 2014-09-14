@@ -4,6 +4,9 @@ include(__DIR__.'/config.php');
 
 $tard['title'] = "Tard";
 
+//Uncomment to include navigation header
+// include(__DIR__.'/navigation.php');
+
 $tard['main'] = <<<EOD
 <h1>I Made a webpage once.</h1>
 <p>It was awful.</p>

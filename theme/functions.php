@@ -10,5 +10,12 @@ function get_title($title) {
   return $title . (isset($tard['title_append']) ? $tard['title_append'] : null);
 }
 
-
+//Modify navigation
+function modifyNavbar($items) {
+  $ref = isset($_GET['p']) && isset($items[$_GET['p']]) ? $_GET['p'] : null;
+  if($ref) {
+    $items[$ref]['class'] .= 'selected'; 
+  }
+  return $items;
+}
 

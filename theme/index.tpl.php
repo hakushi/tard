@@ -10,6 +10,7 @@
 <script src='<?=$modernizr?>'></script>
 </head>
 <body>
+<?php if(isset($menu)): echo CNavigation::GenerateMenu($menu, 'navbar'); endif; ?> 
   <div id='wrapper'>
     <div id='header'><?=$header?></div>
     <div id='main'><?=$main?></div>

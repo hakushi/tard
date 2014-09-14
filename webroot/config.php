@@ -40,6 +40,7 @@ EOD;
 //Theme settings
 $tard['stylesheets'] = array('css/style.css'); //base styles
 $tard['stylesheets'][] = 'css/source.css'; //styles for CSource
+$tard['stylesheets'][] = 'css/navigation.css'; //styles for CNavigation
 $tard['favicon']    = 'favicon.ico';
 
 //JavaScript settings

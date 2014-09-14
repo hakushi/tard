@@ -1,5 +1,3 @@
-html{
-}
 body{
   color:#696969;
   font-family: 'helvetica';
@@ -19,7 +17,6 @@ p{
   width:980px;
   margin:auto;
   text-align:left;
-
 }
 
 #header{
@@ -50,3 +47,4 @@ p{
   font-weight:100;
   font-style: italic
 }
+
